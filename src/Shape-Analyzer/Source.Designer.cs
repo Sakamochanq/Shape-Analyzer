@@ -75,6 +75,7 @@
             | System.Windows.Forms.Keys.N)));
             this.NewButton.Size = new System.Drawing.Size(229, 22);
             this.NewButton.Text = "新規作成（N）";
+            this.NewButton.Click += new System.EventHandler(this.NewButton_Click);
             // 
             // 開くOToolStripMenuItem
             // 
@@ -91,6 +92,7 @@
             this.OpenProjectButton.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.OpenProjectButton.Size = new System.Drawing.Size(202, 22);
             this.OpenProjectButton.Text = "プロジェクトファイル";
+            this.OpenProjectButton.Click += new System.EventHandler(this.OpenProjectButton_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -112,6 +114,7 @@
             this.SaveButton.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.SaveButton.Size = new System.Drawing.Size(232, 22);
             this.SaveButton.Text = "上書き保存";
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // SaveAsButton
             // 
@@ -120,6 +123,7 @@
             | System.Windows.Forms.Keys.S)));
             this.SaveAsButton.Size = new System.Drawing.Size(232, 22);
             this.SaveAsButton.Text = "名前を付けて保存";
+            this.SaveAsButton.Click += new System.EventHandler(this.SaveAsButton_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -132,6 +136,7 @@
             this.ExitButton.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
             this.ExitButton.Size = new System.Drawing.Size(229, 22);
             this.ExitButton.Text = "終了（X）";
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // OpenMapDataButton
             // 
@@ -139,6 +144,7 @@
             this.OpenMapDataButton.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
             this.OpenMapDataButton.Size = new System.Drawing.Size(202, 22);
             this.OpenMapDataButton.Text = "地図データ";
+            this.OpenMapDataButton.Click += new System.EventHandler(this.OpenMapDataButton_Click);
             // 
             // Source
             // 
